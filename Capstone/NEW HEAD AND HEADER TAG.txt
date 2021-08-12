@@ -1,0 +1,41 @@
+<head>
+    <!--vector images for buttons and social media etc ... treat like a character(edit same as text)-->
+    <script src="https://kit.fontawesome.com/d48a641bcb.js" crossorigin="anonymous" async></script>
+
+    <!--Google Font Import (Open Sans)-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+
+    <!--CSS Stylesheet, Global first to allow local styles overide-->
+    <link rel="stylesheet" href="GLOBAL.css">
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+
+
+    <header>
+        <img src="logo.png" id="logo">
+
+        <img src="MusicFlourish.png" id="flourish">
+
+        <!--NAVIGATION BAR ... add CurrentPage class to the right tag-->
+        <ul id='nav'>
+            <li class="NavList CurrentPage" id="firstNav"><a href="Main.htm">HOME</a></li>
+
+            <!--Dropdown bit-->
+            <div class='NavList dropdownclass'>
+                <a href="Services/service.htm", class='dropdownbtn'>SERVICES</a>
+                <div class='dropdowncontent'>
+                    <a href="#">Recording</a>
+                    <a href="#">Equipment</a>
+                    <a href="#">Mastering</a>
+                    <a href="#">More...</a>
+                </div>
+            </div>
+
+
+            <li class="NavList"><a href="Meet/meet.htm">MEET US</a></li>
+            <li class="NavList"><a href="ContactUs/contactus.htm">CONTACT</a></li>
+            <li class="NavList"><a href="AboutUs/aboutus.htm">ABOUT US</a></li>
+        </ul>
+    </header>
